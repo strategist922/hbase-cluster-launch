@@ -1,0 +1,15 @@
+{
+    "0":{
+        "name":"small",
+        "mem":"512",
+        "cores":"1",
+        "net":"-net nic,macaddr=${MAC_ADDRESS} -net vde,sock=/var/run/vde.ctl"
+    },
+    "1":
+    {
+        "name":"medium",
+        "mem":"1024",
+        "cores":"2",
+        "net":"-net nic,macaddr=${MAC_ADDRESS} -net vde,sock=/var/run/vde.ctl"
+    }
+}
